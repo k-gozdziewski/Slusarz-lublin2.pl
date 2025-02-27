@@ -58,6 +58,10 @@
      margin-bottom: 30px;
  }
 
+ .hero a[href^="tel:"] {
+    color: #0071e3;
+    
+}
  .hero .cta-button {
      padding: 15px 30px;
      background-color: #0071e3;
