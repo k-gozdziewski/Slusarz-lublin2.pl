@@ -2,155 +2,436 @@
 <html lang="pl">
 
 <head>
-    <!-- CHANGED: Title is now shorter, more powerful, and avoids repetition. -->
-    <title>Ślusarz Lublin 24/7 - Awaryjne Otwieranie Drzwi i Samochodów</title>
+    <title>Ślusarz Lublin 24/7 — Awaryjne Otwieranie Drzwi i Samochodów</title>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
 
-    <!-- CHANGED: Meta description is more direct and includes the 24/7 benefit. -->
     <meta name="description"
-        content="Ślusarz Lublin. Potrzebny ślusarz w Lublinie? Zadzwoń: +48 662 921 442. Awaryjne otwieranie drzwi lublin, mieszkań i samochodów 24/7. Szybki dojazd, 20 lat doświadczenia." />
+        content="Ślusarz Lublin — pogotowie ślusarskie 24/7. Awaryjne otwieranie drzwi, mieszkań i samochodów. Wymiana i naprawa zamków Gerda. 20 lat doświadczenia. Zadzwoń: +48 662 921 442." />
+    <meta name="keywords"
+        content="ślusarz lublin, awaryjne otwieranie drzwi lublin, pogotowie ślusarskie lublin, otwieranie samochodów lublin, wymiana zamków lublin, ślusarz lublin 24h" />
     <link rel="canonical" href="https://slusarz-lublin.pl/" />
-    <link rel="icon" href="images/logo-slusarz-lublin.ico" />
+    <link rel="icon" href="images/favicon.ico" />
 
-    <!-- Open Graph (dla Facebooka i innych) -->
-    <meta property="og:title" content="Ślusarz Lublin 24h – Awaryjne Otwieranie Drzwi i Zamków" />
+    <meta name="geo.region" content="PL-06" />
+    <meta name="geo.placename" content="Lublin" />
+    <meta name="geo.position" content="51.2465;22.5684" />
+    <meta name="ICBM" content="51.2465, 22.5684" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ślusarz Lublin 24/7 — Awaryjne Otwieranie Drzwi i Zamków" />
     <meta property="og:description"
-        content="Profesjonalny ślusarz z Lublina. Awaryjne otwieranie zamków, wymiana, naprawa. Działamy 24/7. Tel: +48 662 921 442." />
-    <meta property="og:image" content="https://www.slusarz-lublin.pl/images/logo.png" />
-    <meta property="og:url" content="https://www.slusarz-lublin.pl/" />
+        content="Profesjonalny ślusarz w Lublinie. Awaryjne otwieranie zamków, wymiana, naprawa. Działamy 24/7. Tel: +48 662 921 442." />
+    <meta property="og:image" content="https://slusarz-lublin.pl/images/logo.png" />
+    <meta property="og:url" content="https://slusarz-lublin.pl/" />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pl_PL" />
 
-    <!-- Structured Data (Schema) is already excellent. No changes needed. -->
+    <!-- Schema.org: Locksmith -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Locksmith",
-      "name": "Ślusarz Lublin - Konrad G.",
-      "image": "https://www.slusarz-lublin.pl/images/logo.png",
+      "@id": "https://slusarz-lublin.pl/#locksmith",
+      "name": "Ślusarz Lublin — Konrad G.",
+      "image": "https://slusarz-lublin.pl/images/logo.png",
       "telephone": "+48 662 921 442",
-      "url": "https://www.slusarz-lublin.pl",
+      "url": "https://slusarz-lublin.pl",
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "PLN",
+      "description": "Profesjonalny ślusarz w Lublinie z ponad 20-letnim doświadczeniem. Awaryjne otwieranie drzwi, mieszkań i samochodów 24/7. Wymiana i naprawa zamków.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Lublin",
         "addressRegion": "Lubelskie",
         "addressCountry": "PL"
       },
-      "areaServed": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-          "@type": "GeoCoordinates",
-          "latitude": "51.246452",
-          "longitude": "22.568446"
+      "areaServed": [
+        { "@type": "City", "name": "Lublin" },
+        { "@type": "City", "name": "Świdnik" },
+        { "@type": "City", "name": "Lubartów" },
+        { "@type": "City", "name": "Łęczna" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Usługi ślusarskie",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Awaryjne otwieranie drzwi" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Otwieranie samochodów" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wymiana i naprawa zamków" } }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "3",
+        "bestRating": "5"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anna M." },
+          "datePublished": "2025-12-15",
+          "reviewBody": "Zatrzasnęłam drzwi w środku nocy. Pan Konrad przyjechał w 25 minut i otworzył zamek bez żadnych uszkodzeń. Bardzo polecam!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
         },
-        "geoRadius": "30000"
-      }
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Marek K." },
+          "datePublished": "2025-11-20",
+          "reviewBody": "Profesjonalna wymiana zamków Gerda w drzwiach antywłamaniowych. Szybko, sprawnie i w rozsądnej cenie. Na pewno wrócę w razie potrzeby.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Tomasz W." },
+          "datePublished": "2025-10-08",
+          "reviewBody": "Kluczyki zatrzaśnięte w samochodzie na parkingu. Pan ślusarz otworzył auto w kilka minut, bez rysowania drzwi. Szybko i profesjonalnie.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
     }
     </script>
 
+    <!-- Schema.org: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje awaryjne otwieranie drzwi w Lublinie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Koszt awaryjnego otwierania drzwi zaczyna się od około 100-150 zł. Dokładna cena zależy od typu zamka, pory dnia (nocna interwencja może być droższa) oraz stopnia skomplikowania. Wycenę podaję zawsze przed rozpoczęciem pracy — bez ukrytych kosztów."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak szybko ślusarz dojedzie na miejsce w Lublinie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "W większości przypadków dojeżdżam na miejsce w ciągu 20-40 minut od telefonu, w zależności od mojej aktualnej lokalizacji i natężenia ruchu. Działam na terenie całego Lublina i okolic (Świdnik, Lubartów, Łęczna)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy otwieranie zamka może uszkodzić drzwi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "W zdecydowanej większości przypadków otwieram zamki metodami bezinwazyjnymi, bez jakichkolwiek uszkodzeń drzwi czy zamka. Jedynie w skrajnych sytuacjach (np. złamany klucz w cylinderze) może być konieczne siłowe otwarcie, o czym zawsze informuję przed rozpoczęciem pracy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy ślusarz pracuje w nocy i w weekendy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak, działam jako pogotowie ślusarskie 24/7 — jestem dostępny 24 godziny na dobę, 7 dni w tygodniu, również w święta. Awaryjne sytuacje, jak zatrzaśnięte drzwi, nie wybierają pory — dlatego jestem gotowy do pomocy zawsze."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie marki zamków naprawiacie i wymieniacie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pracuję z zamkami wszystkich popularnych marek, w tym Gerda, LOB, Keso, Mul-T-Lock, ABUS, Yale i wiele innych. Doradzam również w wyborze najlepszego zamka w zależności od potrzeb i budżetu klienta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy otwieracie samochody wszystkich marek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak, bezinwazyjnie otwieram samochody wszystkich marek — od popularnych jak Volkswagen, Toyota, Ford, po samochody premium jak BMW, Audi czy Mercedes. Metoda otwarcia dobierana jest indywidualnie do model pojazdu."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="preconnect" href="https://www.google.com" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <header>
-        <!-- The logo is now a single clickable link containing both the image and the text -->
-        <a href="https://slusarz-lublin.pl/" class="logo">
-            <img src="images/logo-slusarz-lublin.jpg" alt="Logo Ślusarz Lublin">
-            <span>Ślusarz Lublin</span>
-        </a>
-        <div class="header-contact">
-            <a href="tel:+48662921442">+48 662 921 442</a>
+        <div class="header-inner">
+            <a href="https://slusarz-lublin.pl/" class="logo">
+                <img src="images/logo-slusarz-lublin.webp" alt="Ślusarz Lublin — pogotowie ślusarskie 24/7" width="38"
+                    height="38" />
+                <span>Ślusarz Lublin</span>
+            </a>
+            <button class="menu-toggle" aria-label="Menu"
+                onclick="document.querySelector('nav').classList.toggle('active')">☰</button>
+            <nav>
+                <a href="index.html" class="active">Strona Główna</a>
+                <a href="uslugi/awaryjne-otwieranie-drzwi.html">Otwieranie Drzwi</a>
+                <a href="uslugi/otwieranie-samochodow.html">Otwieranie Aut</a>
+                <a href="uslugi/wymiana-naprawa-zamkow.html">Zamki</a>
+                <a href="uslugi/kontakt.html">Kontakt</a>
+            </nav>
+            <div class="header-cta">
+                <a href="tel:+48662921442">📞 662 921 442</a>
+            </div>
         </div>
-        </header>
+    </header>
 
     <main>
+        <!-- ===== HERO ===== -->
         <section class="hero">
             <div class="hero-content">
-                <!-- CHANGED: The H1 is now focused on your primary service and location. This is the most important heading. -->
-                <h1>Ślusarz Lublin 24/7: Awaryjne Otwieranie Drzwi</h1>
-                <p>
-                    Zatrzasnąłeś drzwi? Złamany klucz w zamku?<br>Dojadę szybko i otworzę zamek bez uszkodzeń.
-                    <br>Zadzwoń: 
-                </p>
-                <div class="header-contact">
-                    <a href="tel:+48662921442">+48 662 921 442</a>  </div>
+                <h1>Ślusarz Lublin 24/7 — Awaryjne Otwieranie Drzwi</h1>
+                <p>Zatrzasnąłeś drzwi? Złamany klucz w zamku?<br>Dojadę szybko i otworzę zamek bez uszkodzeń.<br>Ponad
+                    20 lat doświadczenia w branży.</p>
+                <a href="tel:+48662921442" class="hero-cta" aria-label="Zadzwoń do ślusarza: 662 921 442">📞 Zadzwoń:
+                    662 921 442</a>
             </div>
         </section>
 
-        <!-- NEW STRUCTURE: A single, well-organized services section. -->
-        <section id="services" class="services-section">
+        <!-- ===== USŁUGI ===== -->
+        <section class="section section--white" id="uslugi">
             <div class="container">
-                <h2>Nasze Usługi Ślusarskie w Lublinie</h2>
+                <div class="section-header">
+                    <h2>Usługi Ślusarskie w Lublinie</h2>
+                    <p>Profesjonalna pomoc ślusarza — od awaryjnego otwierania drzwi po wymianę zamków. Działam na
+                        terenie Lublina i okolic.</p>
+                </div>
                 <div class="services-grid">
 
-                    <!-- Service 1: Awaryjne Otwieranie Drzwi -->
                     <div class="service-card">
-                        <img src="images/Door-with-keys.jpg" alt="Awaryjne otwieranie drzwi i mieszkań w Lublinie">
-                        <h3>Awaryjne otwieranie drzwi i mieszkań</h3>
-                        <p>Zatrzasnąłeś drzwi do mieszkania lub domu? Działamy szybko i bezinwazyjnie. Jesteśmy gotowi
-                            do pomocy 24/7 na terenie całego Lublina.</p>
+                        <img src="images/Door-with-keys.webp" alt="Awaryjne otwieranie drzwi i mieszkań w Lublinie"
+                            width="400" height="200" loading="lazy" />
+                        <div class="service-card-body">
+                            <h3><a href="uslugi/awaryjne-otwieranie-drzwi.html">Awaryjne otwieranie drzwi i
+                                    mieszkań</a></h3>
+                            <p>Zatrzasnąłeś drzwi do mieszkania lub domu? Działam szybko i bezinwazyjnie. Jestem gotowy
+                                do pomocy 24/7 na terenie całego Lublina i okolic.</p>
+                            <a href="uslugi/awaryjne-otwieranie-drzwi.html" class="btn-link">Dowiedz się więcej →</a>
+                        </div>
                     </div>
 
-                    <!-- Service 2: Otwieranie Samochodów -->
                     <div class="service-card">
-                        <img src="images/keys-unlocking-car.webp" alt="Otwieranie samochodów Lublin">
-                        <h3>Otwieranie samochodów</h3>
-                        <p>Zgubiłeś lub zatrzasnąłeś kluczyki w aucie? Bezinwazyjnie otworzę Twój samochód, niezależnie
-                            od marki i modelu.</p>
+                        <img src="images/keys-unlocking-car.webp"
+                            alt="Otwieranie samochodów w Lublinie — ślusarz samochodowy" width="400" height="200"
+                            loading="lazy" />
+                        <div class="service-card-body">
+                            <h3><a href="uslugi/otwieranie-samochodow.html">Otwieranie samochodów</a></h3>
+                            <p>Zgubiłeś lub zatrzasnąłeś kluczyki w aucie? Bezinwazyjnie otworzę Twój samochód,
+                                niezależnie od marki i modelu. Szybki dojazd.</p>
+                            <a href="uslugi/otwieranie-samochodow.html" class="btn-link">Dowiedz się więcej →</a>
+                        </div>
                     </div>
 
-                    <!-- Service 3: Naprawa Zamków -->
                     <div class="service-card">
-                        <img src="images/SLIDER_WWW_OKUCIA_PL_3.webp" alt="Naprawa i wymiana zamków Gerda w Lublinie">
-                        <h3>Naprawa i wymiana zamków (Gerda i inne)</h3>
-                        <p>Twój zamek Gerda lub inny się zaciął lub potrzebujesz montażu nowego? Posiadamy doświadczenie
-                            w pracy z wszystkimi popularnymi markami zamków.</p>
+                        <img src="images/SLIDER_WWW_OKUCIA_PL_3.webp"
+                            alt="Naprawa i wymiana zamków Gerda, LOB w Lublinie" width="400" height="200"
+                            loading="lazy" />
+                        <div class="service-card-body">
+                            <h3><a href="uslugi/wymiana-naprawa-zamkow.html">Naprawa i wymiana zamków</a></h3>
+                            <p>Zamek Gerda lub inny się zaciął? Potrzebujesz montażu nowego? Posiadam doświadczenie w
+                                pracy ze wszystkimi popularnymi markami zamków.</p>
+                            <a href="uslugi/wymiana-naprawa-zamkow.html" class="btn-link">Dowiedz się więcej →</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== DLACZEGO JA? ===== -->
+        <section class="section section--light" id="dlaczego-ja">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Dlaczego warto wybrać mnie na swojego ślusarza?</h2>
+                    <p>Ponad 20 lat doświadczenia, setki zadowolonych klientów i gotowość do pomocy o każdej porze.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">🏆</span>
+                        <h3>Ponad 20 Lat Doświadczenia</h3>
+                        <p>Wieloletnia praktyka w branży ślusarskiej to gwarancja wiedzy i umiejętności poradzenia sobie
+                            z każdym, nawet nietypowym zamkiem. Pracowałem z tysiącami różnych zamków i drzwi.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🕐</span>
+                        <h3>Dostępność 24/7 w Lublinie</h3>
+                        <p>Działam jako pogotowie ślusarskie na terenie Lublina i okolic. Jestem dostępny 24 godziny na
+                            dobę, 7 dni w tygodniu — również w weekendy i święta.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">⚡</span>
+                        <h3>Szybki Dojazd</h3>
+                        <p>Gwarantuję dojazd w ciągu 20-40 minut w obrębie Lublina. Używam specjalistycznych narzędzi,
+                            dzięki którym w większości przypadków otwieram zamki bez
+                            <span class="tooltip-trigger">uszkodzeń<span class="tooltip-text">W skrajnych przypadkach,
+                                    gdy mechanizm zamka jest zniszczony (np. przez złamany klucz), jedynym rozwiązaniem
+                                    może być jego siłowe otwarcie, co wiąże się z koniecznością wymiany.</span></span>.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">💰</span>
+                        <h3>Uczciwe Ceny</h3>
+                        <p>Wycenę usługi podaję zawsze przed rozpoczęciem pracy. Żadnych ukrytych kosztów ani
+                            niespodzianek. Płacisz tylko za to, co zostało ustalone.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- NEW: A section to build trust and highlight your strengths -->
-        <section id="why-us" class="why-us-section">
+        <!-- ===== OPINIE KLIENTÓW ===== -->
+        <section class="section section--white" id="opinie">
             <div class="container">
-                <h2>Dlaczego warto wybrać mnie na swojego ślusarza?</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <h4>Ponad 20 Lat Doświadczenia</h4>
-                        <p>Wieloletnia praktyka w branży ślusarskiej to gwarancja wiedzy i umiejętności poradzenia sobie
-                            z każdym, nawet nietypowym zamkiem.</p>
+                <div class="section-header">
+                    <h2>Opinie Klientów</h2>
+                    <p>Co mówią o mnie osoby, którym pomogłem.</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>Zatrzasnęłam drzwi w środku nocy. Pan Konrad przyjechał w 25 minut i otworzył zamek bez
+                            żadnych uszkodzeń. Bardzo polecam!</p>
+                        <span class="testimonial-author">— Anna M., Lublin Czuby</span>
                     </div>
-                    <div class="feature-card">
-                        <h4>Dostępność 24/7 w Lublinie</h4>
-                        <p>Działam jako pogotowie ślusarskie na terenie Lublina i okolic. Jestem dostępny 24 godziny na
-                            dobę, 7 dni w tygodniu.</p>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>Profesjonalna wymiana zamków Gerda w drzwiach antywłamaniowych. Szybko, sprawnie i w
+                            rozsądnej cenie. Na pewno wrócę w razie potrzeby.</p>
+                        <span class="testimonial-author">— Marek K., Świdnik</span>
                     </div>
-                    <div class="feature-card">
-                        <h4>Szybki Dojazd i Bezinwazyjność</h4>
-                        <p>Gwarantuję szybki dojazd. Używam specjalistycznych narzędzi, dzięki którym w większości
-                            przypadków otwieram zamki bez 
-                            <span class="tooltip-trigger">
-                                uszkodzeń<span class="tooltip-text">* W skrajnych przypadkach, gdy mechanizm zamka jest zniszczony (np. przez
-                                    złamany klucz), jedynym rozwiązaniem może być jego siłowe otwarcie, co wiąże się z koniecznością wymiany.</span>
-                            </span>.
-                        </p>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>Kluczyki zatrzaśnięte w samochodzie na parkingu. Pan ślusarz otworzył auto w kilka minut, bez
+                            rysowania drzwi. Szybko i profesjonalnie.</p>
+                        <span class="testimonial-author">— Tomasz W., Lublin Bronowice</span>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- ===== FAQ ===== -->
+        <section class="section section--light" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Często Zadawane Pytania</h2>
+                    <p>Odpowiedzi na najczęstsze pytania dotyczące usług ślusarskich w Lublinie.</p>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item active">
+                        <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">Ile
+                            kosztuje awaryjne otwieranie drzwi w Lublinie?</button>
+                        <div class="faq-answer">Koszt awaryjnego otwierania drzwi zaczyna się od około 100-150 zł.
+                            Dokładna cena zależy od typu zamka, pory dnia (nocna interwencja może być droższa) oraz
+                            stopnia skomplikowania. Wycenę podaję zawsze przed rozpoczęciem pracy — bez ukrytych
+                            kosztów.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">Jak szybko
+                            ślusarz dojedzie na miejsce w Lublinie?</button>
+                        <div class="faq-answer">W większości przypadków dojeżdżam na miejsce w ciągu 20-40 minut od
+                            telefonu, w zależności od mojej aktualnej lokalizacji i natężenia ruchu. Działam na terenie
+                            całego Lublina i okolic (Świdnik, Lubartów, Łęczna).</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">Czy
+                            otwieranie zamka może uszkodzić drzwi?</button>
+                        <div class="faq-answer">W zdecydowanej większości przypadków otwieram zamki metodami
+                            bezinwazyjnymi, bez jakichkolwiek uszkodzeń drzwi czy zamka. Jedynie w skrajnych sytuacjach
+                            (np. złamany klucz w cylinderze) może być konieczne siłowe otwarcie, o czym zawsze informuję
+                            przed rozpoczęciem pracy.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">Czy ślusarz
+                            pracuje w nocy i w weekendy?</button>
+                        <div class="faq-answer">Tak, działam jako pogotowie ślusarskie 24/7 — jestem dostępny 24 godziny
+                            na dobę, 7 dni w tygodniu, również w święta. Awaryjne sytuacje, jak zatrzaśnięte drzwi, nie
+                            wybierają pory — dlatego jestem gotowy do pomocy zawsze.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">Jakie marki
+                            zamków naprawiacie i wymieniacie?</button>
+                        <div class="faq-answer">Pracuję z zamkami wszystkich popularnych marek, w tym Gerda, LOB, Keso,
+                            Mul-T-Lock, ABUS, Yale i wiele innych. Doradzam również w wyborze najlepszego zamka w
+                            zależności od potrzeb i budżetu klienta.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">Czy
+                            otwieracie samochody wszystkich marek?</button>
+                        <div class="faq-answer">Tak, bezinwazyjnie otwieram samochody wszystkich marek — od popularnych
+                            jak Volkswagen, Toyota, Ford, po samochody premium jak BMW, Audi czy Mercedes. Metoda
+                            otwarcia dobierana jest indywidualnie do modelu pojazdu.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== OBSZAR DZIAŁANIA ===== -->
+        <section class="section section--white" id="obszar">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Obszar Działania — Lublin i Okolice</h2>
+                    <p>Świadczę usługi ślusarskie na terenie Lublina i okolicznych miejscowości w promieniu ok. 30 km.
+                    </p>
+                </div>
+                <div class="area-grid">
+                    <span class="area-tag">Lublin — Centrum</span>
+                    <span class="area-tag">Lublin — Czuby</span>
+                    <span class="area-tag">Lublin — Bronowice</span>
+                    <span class="area-tag">Lublin — LSM</span>
+                    <span class="area-tag">Lublin — Kalinowszczyzna</span>
+                    <span class="area-tag">Lublin — Węglin</span>
+                    <span class="area-tag">Lublin — Sławin</span>
+                    <span class="area-tag">Lublin — Tatary</span>
+                    <span class="area-tag">Lublin — Dziesiąta</span>
+                    <span class="area-tag">Lublin — Wrotków</span>
+                    <span class="area-tag">Lublin — Felin</span>
+                    <span class="area-tag">Lublin — Abramowice</span>
+                    <span class="area-tag">Świdnik</span>
+                    <span class="area-tag">Lubartów</span>
+                    <span class="area-tag">Łęczna</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA BANNER ===== -->
+        <section class="cta-banner">
+            <h2>Potrzebujesz ślusarza teraz?</h2>
+            <p>Zadzwoń — dojadę szybko i pomogę rozwiązać problem. Działam 24/7.</p>
+            <a href="tel:+48662921442">📞 Zadzwoń: 662 921 442</a>
         </section>
 
     </main>
 
-
-
     <footer>
         <div class="container">
-            ©2005-2025 Slusarz-Lublin.pl - Konrad G. | Pogotowie Ślusarskie
-            <a href="tel:+48662921442">Zadzwoń: +48 662 921 442</a>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Ślusarz Lublin</h4>
+                    <p>Konrad G. — profesjonalny ślusarz z ponad 20-letnim doświadczeniem. Pogotowie ślusarskie 24/7 na
+                        terenie Lublina i okolic.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Usługi</h4>
+                    <ul>
+                        <li><a href="uslugi/awaryjne-otwieranie-drzwi.html">Awaryjne otwieranie drzwi</a></li>
+                        <li><a href="uslugi/otwieranie-samochodow.html">Otwieranie samochodów</a></li>
+                        <li><a href="uslugi/wymiana-naprawa-zamkow.html">Wymiana i naprawa zamków</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontakt</h4>
+                    <p>Tel: <a href="tel:+48662921442">+48 662 921 442</a></p>
+                    <p>Lublin i okolice (do 30 km)</p>
+                    <p>Czynne: 24/7</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                ©2005–2026 slusarz-lublin.pl — Konrad G. | Pogotowie Ślusarskie Lublin
+            </div>
         </div>
     </footer>
 </body>

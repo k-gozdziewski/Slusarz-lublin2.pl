@@ -1,4 +1,5 @@
 User-agent: *
 Disallow:
+Allow: /
 
-Sitemap: https://www.slusarz-lublin.pl/sitemap.xml
+Sitemap: https://slusarz-lublin.pl/sitemap.xml
